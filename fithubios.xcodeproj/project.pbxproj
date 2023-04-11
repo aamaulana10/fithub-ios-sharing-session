@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		04962A1C29E40A80000A2020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04962A1B29E40A80000A2020 /* AppDelegate.swift */; };
 		04962A1E29E40A80000A2020 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04962A1D29E40A80000A2020 /* SceneDelegate.swift */; };
-		04962A2029E40A80000A2020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04962A1F29E40A80000A2020 /* ViewController.swift */; };
 		04962A2329E40A80000A2020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04962A2129E40A80000A2020 /* Main.storyboard */; };
 		04962A2529E40A8A000A2020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04962A2429E40A8A000A2020 /* Assets.xcassets */; };
 		04962A2829E40A8A000A2020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04962A2629E40A8A000A2020 /* LaunchScreen.storyboard */; };
 		04962A3229E41237000A2020 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04962A3129E41237000A2020 /* LoginViewController.swift */; };
+		04F0264829E55CB500F28B65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0264729E55CB500F28B65 /* HomeViewController.swift */; };
+		04F0264B29E5619100F28B65 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0264929E5619100F28B65 /* HomeViewCell.swift */; };
+		04F0264C29E5619100F28B65 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0264A29E5619100F28B65 /* HomeViewCell.xib */; };
+		04F0265229E564D500F28B65 /* Home + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0265129E564D500F28B65 /* Home + Extension.swift */; };
+		04F0265529E5655A00F28B65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0265429E5655A00F28B65 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04962A1829E40A80000A2020 /* fithubios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fithubios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04962A1B29E40A80000A2020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04962A1D29E40A80000A2020 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04962A1F29E40A80000A2020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04962A2229E40A80000A2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04962A2429E40A8A000A2020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04962A2729E40A8A000A2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04962A2929E40A8A000A2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04962A3129E41237000A2020 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04F0264729E55CB500F28B65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04F0264929E5619100F28B65 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		04F0264A29E5619100F28B65 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		04F0265129E564D500F28B65 /* Home + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home + Extension.swift"; sourceTree = "<group>"; };
+		04F0265429E5655A00F28B65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,9 @@
 		04962A1A29E40A80000A2020 /* fithubios */ = {
 			isa = PBXGroup;
 			children = (
+				04F0264D29E5648700F28B65 /* Feature */,
 				04962A1B29E40A80000A2020 /* AppDelegate.swift */,
 				04962A1D29E40A80000A2020 /* SceneDelegate.swift */,
-				04962A1F29E40A80000A2020 /* ViewController.swift */,
 				04962A2129E40A80000A2020 /* Main.storyboard */,
 				04962A2429E40A8A000A2020 /* Assets.xcassets */,
 				04962A2629E40A8A000A2020 /* LaunchScreen.storyboard */,
@@ -68,6 +76,50 @@
 				04962A3129E41237000A2020 /* LoginViewController.swift */,
 			);
 			path = fithubios;
+			sourceTree = "<group>";
+		};
+		04F0264D29E5648700F28B65 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				04F0264F29E564A000F28B65 /* Home */,
+				04F0264E29E5649A00F28B65 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		04F0264E29E5649A00F28B65 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		04F0264F29E564A000F28B65 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04F0265329E5655000F28B65 /* Model */,
+				04F0265029E564AA00F28B65 /* Cell */,
+				04F0264729E55CB500F28B65 /* HomeViewController.swift */,
+				04F0265129E564D500F28B65 /* Home + Extension.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04F0265029E564AA00F28B65 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04F0264929E5619100F28B65 /* HomeViewCell.swift */,
+				04F0264A29E5619100F28B65 /* HomeViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04F0265329E5655000F28B65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04F0265429E5655A00F28B65 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04962A2829E40A8A000A2020 /* LaunchScreen.storyboard in Resources */,
+				04F0264C29E5619100F28B65 /* HomeViewCell.xib in Resources */,
 				04962A2529E40A8A000A2020 /* Assets.xcassets in Resources */,
 				04962A2329E40A80000A2020 /* Main.storyboard in Resources */,
 			);
@@ -142,9 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04962A3229E41237000A2020 /* LoginViewController.swift in Sources */,
-				04962A2029E40A80000A2020 /* ViewController.swift in Sources */,
 				04962A1C29E40A80000A2020 /* AppDelegate.swift in Sources */,
+				04F0265229E564D500F28B65 /* Home + Extension.swift in Sources */,
+				04F0264B29E5619100F28B65 /* HomeViewCell.swift in Sources */,
 				04962A1E29E40A80000A2020 /* SceneDelegate.swift in Sources */,
+				04F0264829E55CB500F28B65 /* HomeViewController.swift in Sources */,
+				04F0265529E5655A00F28B65 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
