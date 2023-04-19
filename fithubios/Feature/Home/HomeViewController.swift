@@ -11,6 +11,7 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var greetingsLabel: UILabel!
     @IBOutlet weak var homeTableView: UITableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     var email = ""
     
@@ -21,6 +22,7 @@ class HomeViewController: UIViewController {
         
         greetingsLabel.text = "Hi, \(email.capitalized)"
         setupHomeTable()
+        setupHomeBanner()
         getDataUser()
     }
     
@@ -35,5 +37,34 @@ class HomeViewController: UIViewController {
             self.homeTableView.reloadData()
         }
     }
+    
+    func  setupHomeBanner() {
+            
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(UINib(nibName: "BannerCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "BannerCollectionViewCell")
+    }
 
+}
+
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        return 5
+    }
+   
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BannerCollectionViewCell", for: indexPath) as! BannerCollectionViewCell
+        
+        return cell
+        
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+        return CGSize(width: 300, height: 300)
+    }
+    
+    
 }

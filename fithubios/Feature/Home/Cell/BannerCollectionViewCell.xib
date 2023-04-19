@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BannerCollectionViewCell" id="gTV-IL-0wX" customClass="BannerCollectionViewCell" customModule="fithubios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="192"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="192"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VrX-l1-pGL">
+                        <rect key="frame" x="8" y="8" width="166" height="176"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="D7lX4jdUIAAWsi4" translatesAutoresizingMaskIntoConstraints="NO" id="Wq2-Ww-EYe">
+                                <rect key="frame" x="0.0" y="0.0" width="166" height="176"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Wq2-Ww-EYe" firstAttribute="leading" secondItem="VrX-l1-pGL" secondAttribute="leading" id="6HA-qW-c6D"/>
+                            <constraint firstItem="Wq2-Ww-EYe" firstAttribute="top" secondItem="VrX-l1-pGL" secondAttribute="top" id="Ipn-jP-7aU"/>
+                            <constraint firstAttribute="bottom" secondItem="Wq2-Ww-EYe" secondAttribute="bottom" id="dxY-VH-0Pf"/>
+                            <constraint firstAttribute="trailing" secondItem="Wq2-Ww-EYe" secondAttribute="trailing" id="xDE-LB-GPK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="VrX-l1-pGL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Hcg-0r-xLZ"/>
+                <constraint firstAttribute="bottom" secondItem="VrX-l1-pGL" secondAttribute="bottom" constant="8" id="OW4-i9-HQB"/>
+                <constraint firstItem="VrX-l1-pGL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="T9B-53-rol"/>
+                <constraint firstAttribute="trailing" secondItem="VrX-l1-pGL" secondAttribute="trailing" constant="8" id="hPE-Fj-BXO"/>
+            </constraints>
+            <size key="customSize" width="182" height="192"/>
+            <point key="canvasLocation" x="120.61068702290076" y="69.718309859154928"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="D7lX4jdUIAAWsi4" width="720" height="720"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

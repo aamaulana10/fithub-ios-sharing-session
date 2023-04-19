@@ -13,6 +13,8 @@
 		04962A2529E40A8A000A2020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04962A2429E40A8A000A2020 /* Assets.xcassets */; };
 		04962A2829E40A8A000A2020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04962A2629E40A8A000A2020 /* LaunchScreen.storyboard */; };
 		04962A3229E41237000A2020 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04962A3129E41237000A2020 /* LoginViewController.swift */; };
+		04AEC16529EFE09A007C30DA /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEC16329EFE09A007C30DA /* BannerCollectionViewCell.swift */; };
+		04AEC16629EFE09A007C30DA /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AEC16429EFE09A007C30DA /* BannerCollectionViewCell.xib */; };
 		04F0264829E55CB500F28B65 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0264729E55CB500F28B65 /* HomeViewController.swift */; };
 		04F0264B29E5619100F28B65 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F0264929E5619100F28B65 /* HomeViewCell.swift */; };
 		04F0264C29E5619100F28B65 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0264A29E5619100F28B65 /* HomeViewCell.xib */; };
@@ -29,6 +31,8 @@
 		04962A2729E40A8A000A2020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04962A2929E40A8A000A2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04962A3129E41237000A2020 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04AEC16329EFE09A007C30DA /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		04AEC16429EFE09A007C30DA /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
 		04F0264729E55CB500F28B65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		04F0264929E5619100F28B65 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		04F0264A29E5619100F28B65 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 			children = (
 				04F0264929E5619100F28B65 /* HomeViewCell.swift */,
 				04F0264A29E5619100F28B65 /* HomeViewCell.xib */,
+				04AEC16329EFE09A007C30DA /* BannerCollectionViewCell.swift */,
+				04AEC16429EFE09A007C30DA /* BannerCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 				04F0264C29E5619100F28B65 /* HomeViewCell.xib in Resources */,
 				04962A2529E40A8A000A2020 /* Assets.xcassets in Resources */,
 				04962A2329E40A80000A2020 /* Main.storyboard in Resources */,
+				04AEC16629EFE09A007C30DA /* BannerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +207,7 @@
 				04F0264B29E5619100F28B65 /* HomeViewCell.swift in Sources */,
 				04962A1E29E40A80000A2020 /* SceneDelegate.swift in Sources */,
 				04F0264829E55CB500F28B65 /* HomeViewController.swift in Sources */,
+				04AEC16529EFE09A007C30DA /* BannerCollectionViewCell.swift in Sources */,
 				04F0265529E5655A00F28B65 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
